@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d1d17;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: gold;
+    
+}
+
+header h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+header h1,
+div h2 {
+    font-family: "Libre Baskerville", serif;
+}
+
+header nav li {
+    display: inline;
+    font-size: 16px;
+    margin-right: 50px;
+    font-family: "Playwrite MX", cursive;
+}
+
+#esp1 {
+    margin-right: 0px;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+header nav li a {
+    color: #fff1d1;
+    text-decoration: none;
+}
+
+header nav li a:hover {color: red;}
+
+div h2 {
+    color: greenyellow;
+    margin: 0  16px;
+}
+
+div p {
+    margin: 0  16px;
+    color: #fff1d1;
+    font-family: "Playwrite MX", cursive;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conter {
+    overflow: hidden;
+}
+
+.image {
+    height: 350px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 18px;
+}
+
+.text {
+    overflow: hidden;
+}
+
+.image2, .image3 {
+    display: inline-block;
+    margin-right: 20px;
+    height: 410px;
+}
+
+.image3 {
+    margin-right: 0px;
+}
+.conter2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#mitologia div h2 {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.conter3 {
+    overflow: hidden;
+}
+
+.image4 {
+    height: 500px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+.text2 {
+    display: flex;
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.image5, .image6, .image8, .image9 {
+    display: inline-block;
+    margin-right: 20px;
+    height: 410px;
+}
+
+.image6, .image9 {
+    margin-right: 0px;
+}
+
+.conter4, .conter6, .contatos h2, .formulario, .conter7 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#misterios div h2 {
+    padding: 8px;
+}
+
+.conter5 {
+    overflow: hidden;
+}
+
+.image7 {
+    height: 390px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 18px;
+    margin-top: 50px;
+}
+
+.text3 {
+    overflow: hidden;
+    margin-right: 8px;
+}
+
+.rodape {
+    padding: 16px 0;
+    background-color: black;
+}
+
+.rodape p {
+    color: gold;
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+.contatos h2 {
+    padding: 16px;
+}
+
+.formulario input {
+    width: 500px;
+    font-family: "Playwrite MX", cursive;
+}
+
+.formulario textarea {
+    resize: none;
+    width: 500px;
+    height: 100px;
+    font-family: "Playwrite MX", cursive;
+}
+
+.formulario textarea:focus, .formulario input:focus {
+    outline-color: red;
+}
+
+
+.formulario button {
+    width: 200px;
+}
+
+form button {
+    font-family: "Playwrite MX", cursive;
+    background-color: #000000;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #000000a4;
+}
+
